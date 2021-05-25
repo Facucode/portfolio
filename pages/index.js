@@ -6,7 +6,7 @@ const Index = () => (
 
 <Layout>
     {/** Header card */}
-    <header classsName="row">
+    <header className="row">
         <div className="col-md-12">
             <div className="card card-body bg-dark text-light">
                 <div className="row">
@@ -16,7 +16,8 @@ const Index = () => (
                     <div className="col-md-8">
                         <h1>Facundo Oyola</h1>
                         <h1>Software Developer</h1>
-                        <p>About me</p>
+                        <p>About me:</p>
+                        <h6>Hello! Im a Junior Software Developer and I am interested about always learn something about the software world.I am currently open to work</h6>
                         <a href="/hireme">Hire Me</a>
 
                     </div>
@@ -69,7 +70,7 @@ const Index = () => (
                         <li>
                  <h4>Universidad Nacional del Noroeste de la Provincia de Buenos Aires</h4>
                     <p>Grade: Bachelor of Systems <br />
-                    State: In progress <br />
+                    State: In progress, in the last year<br />
                     2015-today</p>
                        </li>
                     </ul>
@@ -89,7 +90,7 @@ const Index = () => (
                         <h1 className="text-center text-light">Portfolio</h1>
                     </div>
                     {
-                        projects.map(({title, description,image,link},i) =>(
+                        projects.map(({title, description,image,link,github},i) =>(
                             <div className="col-md-4" key={i}>
                                 <div className="card h-100">
                                     <div className="overflow">
@@ -98,7 +99,8 @@ const Index = () => (
                                     <div className="card-body">
                                         <h3>{title}</h3>
                                         <p>{description}</p>
-                                        <a href={link}>Watch it!</a>
+                                        <a href={link}>Watch it online</a><br/>
+                                        <a href={github}>Public Repository</a>
                                     </div>
                                 </div>
                             </div>

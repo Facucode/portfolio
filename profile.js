@@ -25,18 +25,21 @@ export const projects = [
         title: "Amazon clone",
         description: "This Amazon clone was made with React then deployed to Firbease and its functionalites are: Creating an user, Loging in and Add products to basket",
         image:"amazon-clone.png",
-        link:"https://clone-97d43.web.app/"
+        link:"https://clone-97d43.web.app/",
+        github:"https://github.com/Facucode/amazon-clone"
     },
     {
         title:"Covid19 tracker",
-        description:"This is a covid-19 tracker made with React, and react-leaflet for making the map, and it fetchs data from disease.sh ",
+        description:"This is a covid-19 tracker made with React, and react-leaflet for making the map, and it fetches data from disease.sh ",
         image:"covid19-tracker.png",
-        link:"https://covid-19-tracker-a61a9.web.app/"
+        link:"https://covid-19-tracker-a61a9.web.app/",
+        github:"https://github.com/Facucode/covid19-tracker"
     },{
         title:"Users list (react and node on docker and azure)",
         description:"A project made with react and node.js deployed into docker on azure",
         image:"reactnodeazure.png",
-        link:"http://137.135.95.4:80"
+        link:"http://137.135.95.4:80",
+        github:"https://hub.docker.com/r/facucode/react-node-webapp"
     }
 
 ]
