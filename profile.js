@@ -32,6 +32,11 @@ export const projects = [
         description:"This is a covid-19 tracker made with React, and react-leaflet for making the map, and it fetchs data from disease.sh ",
         image:"covid19-tracker.png",
         link:"https://covid-19-tracker-a61a9.web.app/"
+    },{
+        title:"Users list (react and node on docker and azure)",
+        description:"A project made with react and node.js deployed into docker on azure",
+        image:"reactnodeazure.png",
+        link:"http://137.135.95.4:80"
     }
 
 ]
