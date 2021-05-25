@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 
-const _error = () =>{
+const _error = ({statusCode}) =>{
     return (
         <Layout>
             {
