@@ -16,9 +16,7 @@ const Index = () => (
                     <div className="col-md-8">
                         <h1>Facundo Oyola</h1>
                         <h1>Software Developer</h1>
-                        <p>About me:</p>
                         <h6>Hello! Im a Junior Software Developer and I am interested about always learn something about the software world.I am currently open to work</h6>
-                        <a href="/hireme">Hire Me</a>
 
                     </div>
                 </div>
